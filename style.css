@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(219, 135, 135);
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+
+}
+
+.container{
+    width:40vw;
+    margin: auto;
+    background-color: skyblue;
+    padding:0.3rem;
+}
+button{
+    
+    display:block;
+    margin: auto;
+    margin-top:1rem ;
+}
+
+table{
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+
+tr{
+    border: 1px solid black;
+}
