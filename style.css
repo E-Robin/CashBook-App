@@ -29,3 +29,15 @@ table{
 tr{
     border: 1px solid black;
 }
+
+@media screen and (max-width:600px) {
+    .container{
+        width:90vw;
+        margin: auto;
+        background-color: skyblue;
+        padding:0.3rem;
+    }
+    body{background-color:skyblue; }
+
+    }
+    
