@@ -17,7 +17,7 @@ var cash=cashGiven.value;
         NoteReturn(bill,cash);
     } 
     else{
-        showOutput("Please enter the bill amount first")
+        showOutput("Please enter the amount first")
     }
 }
 
@@ -34,12 +34,14 @@ function NoteReturn(bill,cash)
 
         showOutput("Your bill is clear no due")
     }
-    else (bill>cash)
+    else 
     {
         var due=bill-cash;
         showOutput("Bill is not clear you have to pay " + due + " rupees more to clear the due")
     }
+
 }
+
 
 function calculateChange(cashReturn){
  for (let i=0;i<Notes.length;i++  ){
