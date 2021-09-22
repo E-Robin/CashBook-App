@@ -30,14 +30,17 @@ function NoteReturn(bill,cash)
 
 
     }
-    else if(cash===bill){
+    else if(cash<bill){
 
-        showOutput("Your bill is clear no due")
+        var due=bill-cash;
+        showOutput("Bill is not clear you have to pay " + due + " rupees more to clear the due")
+
+
+       
     }
     else 
     {
-        var due=bill-cash;
-        showOutput("Bill is not clear you have to pay " + due + " rupees more to clear the due")
+        showOutput("Your bill is clear no due")
     }
 
 }
