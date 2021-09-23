@@ -1,5 +1,7 @@
 # CashBook-App
 
-This is a cashbook app in which takes initial price ,number of stocks and current price of stocks .And proivde us the profit and loss details pf buisness.
+Cash book app helps the user to calculate the bill data.
+it can take input as total bill  amount and cash given by customer .As output it checks for due and money refund to customer in number of notes.
 
-I have used html5,css3 and Javascript.
+I have used html ,css and javascript.
+
